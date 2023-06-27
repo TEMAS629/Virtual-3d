@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Парк победы</title>
+    <noscript>Данный браузер не поддерживает JavaScript :/</noscript>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a class="header__logo">Парк победы</a>
+        <nav class="nav__bar">
+            <div class="ModalWindow">
+                <a href="main.html">Главная</a>
+                <a href="#">История</a>
+                <a href="#">Объекты</a>
+                <a href="#">Контакты</a>
+                <a href="#" class="activePage">Виртуальная экскурсия</a>
+            </div>
+        </nav>
+        <label class="burger-btn__header" id="toggleMenu">
+            <span></span>
+        </label>
+    </header>
+
+    <section class="home">
+        <div class="panorama__container"></div>
+    </section>
+
+    <script defer src="js/lib/three.min.js"></script>
+    <script defer src="js/lib/panolens.min.js"></script>
+    <script defer src="js/controlPano.js"></script>
+    <script defer src="js/app.js"></script>
+</body>
+
+</html>
